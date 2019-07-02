@@ -5,6 +5,7 @@
 module.exports = {
 	server: require("./lib/server"),
 	sslUtil: require("./lib/sslUtil"),
+	proxyConfiguration: require("./lib/proxyConfiguration"),
 	middlewareRepository: require("./lib/middleware/middlewareRepository"),
 
 	// Legacy middleware export. Still private.
